@@ -8,7 +8,6 @@ RUN chmod 777 /usr/src/RailwayFuckYou
 
 RUN git clone https://github.com/Sam-Max/rclone-mirror-leech-telegram-bot
 
-RUN apt get update && upgrade
 
 RUN apt install sudo
 
